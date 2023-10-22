@@ -1,0 +1,113 @@
+/* Colors and fonts */
+ 
+body{
+	background-color: rgba(200, 200, 200, 0.5);
+	color: darkblue;
+	font-family: 'Satisfy', cursive;
+	font-size: 16px;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Zilla Slab', serif;
+
+}
+
+h1 {
+	color: mediumpurple;
+	font-family: Arial;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 40px;
+	front-weight: 400;
+
+}
+
+a {
+	text-decoration: none;
+	color: mediumpurple;
+}
+a:hover {
+	color: blueviolet;
+}
+
+
+h1 {
+background: white
+padding: 60px
+margin: 50px
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3)
+border-radius: 40px
+}
+
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 550px;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 60px; 
+	margin: 50px 0px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 40px;
+	text-align: center;
+	}
+
+.img-circle {
+	border-radius: 50%;
+
+}
+
+.btn-purple {
+    background-color: mediumpurple;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+
+.btn-purple:hover {
+	background-color: blueviolet;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200, 200, 200);
+}
+
+.list-inline i:hover {
+	color: blueviolet;
+}
+
+#introduction p {
+	margin-bottom: 20px;
+}
+
+
+
